@@ -1,0 +1,12 @@
+------------------
+----tieshTalk:----
+--database:
+talks:
+tid INT PK
+ptid INT DEFAULT 0 ?
+posttime DATETIME
+uname TEXT
+data TEXT
+--idea:
+localstorage: save uname, can use anywhere
+reply anyone

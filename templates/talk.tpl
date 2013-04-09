@@ -1,3 +1,4 @@
+$def with (tf)
 <!DOCTYPE HTML>
 <html>
     <title>TieshTalk</title>
@@ -11,13 +12,13 @@
         <div>
             <form class="form-horizontal" action="/talk" method="post">
                 <div class="control-group">
-                    <input type="text" placeholder="name" name="postername">
+                    $:tf.postername.render()
                 </div>
                 <div class="control-group">
-                    <textarea rows="3" name="talkcontent"></textarea>
+                    $:tf.talkdata.render()
                 </div>
                 <div class="control-group">
-                    <button type="submit" class="btn">submit</button>
+                    $:tf.submit.render()
                 </div>
             </form>
         </div>

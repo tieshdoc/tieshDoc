@@ -20,6 +20,6 @@ def add_talkitem(ptid = None, poname = None, data = None):
     newtid = get_newtid()
     if not ptid:
         ptid = newtid
-    potime = time.strftime("%Y-%m-%d %A %X", time.localtime())
+    potime = time.strftime('%Y-%m-%d %A %X', time.localtime())
     talkitem = dict(tid = newtid, ptid = ptid, potime = potime, poname = poname, data = data)
     talks.append(talkitem)

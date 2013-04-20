@@ -1,6 +1,7 @@
 #coding:utf-8
 import time
 
+#吐槽本部分
 talks=[
     {'tid': 0, 'ptid': 0, 'potime': '2013-04-10 Wednesday 14:06:11', 'poname': 'ztall', 
     'data': '中文编码问题解决方案：tpl文件处定义charset=utf-8，处处以utf-8统一。'}, 
@@ -10,6 +11,10 @@ talks=[
     'data': '新问题：在东东的windows上面编码悲剧了。'},
     {'tid': 3, 'ptid': 0, 'potime': '2013-04-10 Wednesday 14:09:11', 'poname': 'ztall', 
     'data': '新问题解决：编码错误由localtime中一部分引起，已修改。'},]
+
+# 例会纲要部分
+meetingfile = [{'mfid': , 'ctime': ,'mtime': , 'position': ,'nummem': , 'abmem': }]
+meetingitem = [{'itemid': , 'mfid': , 'title': , 'who': , 'data': }]
 
 def get_alltalks():
     return talks

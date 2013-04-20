@@ -1,4 +1,4 @@
-$def with (tform, talklist, str)
+$def with (tform, talklist)
 <!DOCTYPE HTML>
 <html>
 <head>

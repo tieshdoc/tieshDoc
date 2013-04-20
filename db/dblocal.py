@@ -13,8 +13,8 @@ talks=[
     'data': '新问题解决：编码错误由localtime中一部分引起，已修改。'},]
 
 # 例会纲要部分
-meetingfile = [{'mfid': , 'ctime': ,'mtime': , 'position': ,'nummem': , 'abmem': }]
-meetingitem = [{'itemid': , 'mfid': , 'title': , 'who': , 'data': }]
+#meetingfile = [{'mfid': , 'ctime': ,'mtime': , 'position': ,'nummem': , 'abmem': }]
+#meetingitem = [{'itemid': , 'mfid': , 'title': , 'who': , 'data': }]
 
 def get_alltalks():
     return talks
